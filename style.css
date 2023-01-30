@@ -1,3 +1,59 @@
 * {
-    background-color: black;
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 99vw;
+}
+
+.card {
+    margin: 0 auto;
+    display: flex;
+    padding: 1rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.img-container {
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+img {
+    width: 10rem;
+    background-color: darkblue;
+}
+
+span {
+    font-size: 20px;
+    background-color: #ffffff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 15px;
+    background-color: #ffffff;
+    color: gray;
+}
+
+.text-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    text-align: center;
 }
